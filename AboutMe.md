@@ -13,3 +13,11 @@ Let’s quickly have a look at the best places to visit in Goa with your friends
 | Japan           |  Family Function            |       12              |
 | China           |  Holiday                    |       06              |   
 | Lambasingi      |  Vaccation                  |       30              |
+
+---
+
+**Pithy quotes**
+
+> There’s just something about getting a good laugh in that can make your day a million times better. If you’re looking for funny quotes to make you smile, to give a toast with, or to send to a loved one, you’ve come to the right place. -_Chethan_-
+> 
+> Love is messy, weird, difficult and oftentimes very funny. These funny love quotes are the most relatable thing you’ll read all day. -_Sumanth_
