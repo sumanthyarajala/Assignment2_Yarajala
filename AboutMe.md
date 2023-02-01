@@ -24,24 +24,18 @@ Let’s quickly have a look at the best places to visit in Goa with your friends
 
 # Code Fencing
 
-> [How to save html graph to jpeg using java? (Chart.js)](https://stackoverflow.com/questions/75304343/how-to-save-html-graph-to-jpeg-using-java-chart-js)
+> [How to use string.replace() in python 3.x](https://stackoverflow.com/questions/9452108/how-to-use-string-replace-in-python-3-x#:~:text=str.replace%20%28old%2C%20new%20%20%20count%5D%29%20Return%20a,given%2C%20only%20the%20first%20count%20occurrences%20are%20replaced.)
 
-```Sass
-$o-grid-default-config: (
-    columns: 12,
-    gutter: 10px,
-    min-width: 240px,
-    max-width: 1330px,
-    layouts: (
-        S:  370px,  // ≥20px columns
-        M:  610px,  // ≥40px columns
-        L:  850px,  // ≥60px columns
-        XL: 1090px  // ≥80px columns
-    ),
-    fluid: true,
-    debug: false,
-    fixed-layout: M,
-    enhanced-experience: true
-);
+Sass
 ```
-> [Deep Get/Set in Maps](https://css-tricks.com/snippets/sass/deep-getset-maps/)
+@function str-replace($string, $search, $replace: '') {
+  $index: str-index($string, $search);
+  
+  @if $index {
+    @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+  }
+  
+  @return $string;
+}
+```
+[Str-replace Function](https://css-tricks.com/snippets/sass/str-replace-function)
